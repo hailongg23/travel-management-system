@@ -65,23 +65,23 @@ Travel System là ứng dụng web quản lý tour du lịch và đặt booking 
 
 ```bash
 # Clone repository
-git clone https://github.com/nguyenhung204/travel-system.git
-cd travel-system
+git clone (https://github.com/hailongg23/travel-management-system.git)
+cd travel_system-main
 
 # Cấu hình environment
 cp backend/.env.example backend/.env
 cp frontend/.env.example frontend/.env
 
 # Khởi chạy
-docker-compose up -d
+sudo docker compose up --build -d
 
 # Seed dữ liệu mẫu
 docker-compose exec backend npm run seed
 ```
 
 ### Truy cập ứng dụng
-- **Frontend**: http://localhost:3000
-- **Backend API**: http://localhost:5000
+- **Frontend**: https://travel.hailong.online
+- **Backend API**: https://api.hailong.online
 
 ## Scripts chính
 
